@@ -12,6 +12,7 @@ public class PagesClass {
 		//super();
 		this.driver = driver;
 	}
+	//hello
 	@FindBy(name="email") WebElement email1;
 	@FindBy(name="password") WebElement password1;
 	@FindBy(how = How.CSS, using="div[class~='submit']") WebElement classNames;
